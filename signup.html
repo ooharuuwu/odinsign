@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="mothercare-logo.svg" alt="mothercare-logo">
+            </div>
+        </div>
+        <div class="form-container">
+            <p>This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.</p>
+                <form>
+                    <h1>Let's do this!</h1>
+
+                    <div class="form-row">
+                      <div class="form-field">
+                        <label for="firstname">FIRST NAME</label>
+                        <input id="firstname" type="text" name="firstname" required>
+                      </div>
+                      <div class="form-field">
+                        <label for="lastname">LAST NAME</label>
+                        <input id="lastname" type="text" name="lastname" required>
+                      </div>
+                    </div>
+                  
+                    <div class="form-row">
+                      <div class="form-field">
+                        <label for="email">EMAIL</label>
+                        <input id="email" type="email" name="email" required>
+                      </div>
+                      <div class="form-field">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input id="phonenumber" type="tel" name="phonenumber" required>
+                      </div>
+                    </div>
+                  
+                    <div class="form-row">
+                      <div class="form-field">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" type="password" name="password" required>
+                      </div>
+                      <div class="form-field">
+                        <label for="confirmpassword">CONFIRM PASSWORD</label>
+                        <input id="confirmpassword" type="password" name="confirmpassword" required>
+                      </div>
+                    </div>
+                  
+                    <button type="submit">CREATE ACCOUNT</button>
+
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </form>
+        </div>
+    </div>
 </body>
 </html>
